@@ -1,0 +1,13 @@
+{
+  "urls": ["http://127.0.0.1:5000/json", "http://127.0.0.1:5000"],
+  "methods": ["post", "get"],
+  "headers":  {"Content-Type": "application/json"},
+  "concurrency": 1,
+  "numbers": [1],
+  "time_limit": 0,
+  "log_location": "apache_benchmark.log",
+  "log_level": 20,
+  "cookies": "",
+  "datas": [{"name":"Alex"}, ""],
+  "time_location": "execution time.txt"
+}
